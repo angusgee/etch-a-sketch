@@ -1,6 +1,7 @@
 const container = document.getElementById("container");
 const numSquares = 16;
 const squaresPerRow = Math.sqrt(numSquares);
+const btn = document.getElementById("create-grid-btn");
 
 function createSquares(numSquares) {
     for (let i = 0; i < numSquares; i++) {
@@ -13,3 +14,8 @@ function createSquares(numSquares) {
 }
 
 createSquares(numSquares);
+
+btn.addEventListener("click", () => {
+    // e.preventDefault();
+    console.log(">> clicked! changing grid");
+});
