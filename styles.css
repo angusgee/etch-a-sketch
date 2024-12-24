@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --clr-light-gray: #dfe6e9;
+    --clr-medium-gray: #b2bec3;
+    --clr-dark-gray: #636e72;
+    --clr-black: #2d3436;
+    --clr-purple: #6c5ce7;
+    --clr-blue: #a29bfe;
+    --clr-blue: #0984e3;
+    --clr-light-blue: #74b9ff;
+}
+
+body {
+    background-color: var(--clr-light-gray);
+    min-width: 100vh;
+    min-height: 100vh;
+    display: flex;
+}
+
+#container {
+    background-color: var(--clr-light-blue);
+    width: 80vw;
+    height: 80vh;
+    margin: auto;
+}
