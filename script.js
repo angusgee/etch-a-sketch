@@ -1,5 +1,5 @@
 const container = document.getElementById("container");
-const numSquares = 4;
+const numSquares = document.getElementById("num-squares-dropdown").value;
 const squaresPerRow = Math.sqrt(numSquares);
 const btn = document.getElementById("create-grid-btn");
 
