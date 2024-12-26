@@ -23,13 +23,12 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-    padding-top: 2rem;
 }
 
 #container {
     background-color: var(--clr-light-gray);
-    width: 62vh;
-    height: 62vh;
+    width: 55vh;
+    height: 55vh;
     margin: auto;
     margin-top: 1rem;
     display: flex;
@@ -44,6 +43,7 @@ body {
 h1 {
     text-align: center;
     margin-bottom: 0;
+    padding-top: 2rem;
 }
 
 p {
