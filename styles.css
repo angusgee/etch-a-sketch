@@ -12,6 +12,7 @@
     --clr-violet: #a29bfe;
     --clr-blue: #0984e3;
     --clr-light-blue: #74b9ff;
+    --clr-warning: #d63031;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -72,4 +73,8 @@ button {
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 1.5px;
+}
+
+#clear-grid-btn {
+    background-color: var(--clr-warning);
 }

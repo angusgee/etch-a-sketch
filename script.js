@@ -19,7 +19,6 @@ const colourNames = [
 function changeColour(el) {
     const randInt = parseInt(Math.random() * 10);
     el.style.backgroundColor = `var(${colourNames[randInt]})`;
-    // console.log(`colour changed to: var(${colourNames[randInt]})`);
 }
 
 function createSquares(numSquares, squaresPerRow) {
@@ -42,6 +41,13 @@ createGridBtn.addEventListener("click", () => {
         container.removeChild(container.lastElementChild);
     }
     createSquares(dropdownValue, squaresPerRow);
+});
+
+clearGridBtn.addEventListener("click", () => {
+    const squares = document.querySelectorAll(".square");
+    for (const square of squares) {
+        square.style.backgroundColor = "var(--clr-light-blue)";
+    }
 });
 
 createSquares(numSquares, squaresPerRow);
